@@ -86,7 +86,7 @@ const isMobileMenuOpen = ref(false)
     <transition name="slide-down">
       <div
         v-show="isMobileMenuOpen"
-        class="absolute top-16 left-4 right-4 bg-linear-to-bl from-violet-600/70 to-purple-600/70 backdrop-blur-md rounded-3xl shadow-xl p-5 lg:hidden flex flex-col space-y-2"
+        class="absolute top-16 left-4 right-4 bg-zinc-900/50 backdrop-blur-md border border-white/10 rounded-3xl shadow-xl p-5 lg:hidden flex flex-col space-y-2"
       >
         <a
           @click="isMobileMenuOpen = false"

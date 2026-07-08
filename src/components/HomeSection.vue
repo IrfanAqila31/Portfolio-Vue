@@ -1,24 +1,26 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeroAnimation from './HeroAnimation.vue'
+</script>
 
 <template>
-  <section id="home" class="pt-32 pb-24">
+  <section id="home" class="pt-32 pb-20">
     <div class="w-full max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        <div class="px-4 order-2 lg:order-1">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+        <div class="px-4 order-2 md:order-1">
           <h1
-            class="text-slate-100 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4 tracking-wide"
+            class="text-slate-200 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4"
           >
             <span class="text-olive-500">Halo, </span>Saya Irfan Aqila Utama
           </h1>
-          <p class="text-slate-300 font-medium text-sm md:text-base mb-4 max-w-xl">
+          <p class="text-slate-400 font-medium text-sm md:text-base mb-4 max-w-xl">
             Membangun antarmuka web modern dengan kode yang bersih dan performa optimal.
           </p>
-          <div class="flex flex-wrap gap-3 items-center justify-center md:justify-start">
+          <div class="flex flex-wrap gap-3 md:gap-1 lg:gap-5 items-center justify-center md:justify-start">
             <a
               href="https://wa.me/6287744884140"
               target="_blank"
               rel="noopener noreferrer"
-              class="py-3 px-4 md:px-5 text-base rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
+              class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +40,7 @@
             </a>
             <a
               href="#paket-internet"
-              class="py-3 px-4 md:px-5 text-base rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
+              class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,15 +60,8 @@
             </a>
           </div>
         </div>
-        <div class="px-4 flex justify-center order-1 lg:order-2 mb-10 lg:mb-0">
-          <!-- <img
-            src="/vector.svg"
-            alt="Vector"
-            width="500"
-            height="500"
-            fetchpriority="high"
-            class="w-full max-w-lg h-auto drop-shadow-2xl" -->
-          />
+        <div class="px-4 flex justify-center order-1 md:order-2 mb-5 md:mb-0">
+          <HeroAnimation />
         </div>
       </div>
     </div>
