@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import SleekLineCursor from '@/components/SleekLineCursor.vue'
+import NavbarComponent from '@/components/NavbarComponent.vue'
+import HomeSection from '@/components/HomeSection.vue'
 
 interface Props {
   friction?: number
@@ -19,9 +21,12 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <div class="bg-zinc-950 relative flex min-h-screen w-full flex-col items-center justify-center text-xl">
-    <span class="hidden md:block">Move your mouse around</span>
-    <span class="block md:hidden">Swipe anywhere to see the cursor</span>
+  <header>
+    <NavbarComponent />
+  </header>
+  <main
+    class="bg-zinc-950 relative flex min-h-screen w-full flex-col items-center justify-center text-xl"
+  >
     <SleekLineCursor
       :friction="props.friction"
       :trails="props.trails"
@@ -29,5 +34,7 @@ const props = withDefaults(defineProps<Props>(), {
       :dampening="props.dampening"
       :tension="props.tension"
     />
-  </div>
+
+    <HomeSection />
+  </main>
 </template>
