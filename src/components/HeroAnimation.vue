@@ -9,8 +9,9 @@ const isHovered = ref(false)
 <template>
   <div class="relative w-full flex items-center justify-center">
     <!-- Use aspect-square and responsive max-widths so it scales perfectly -->
-    <div class="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[500px] xl:max-w-[550px] aspect-square flex items-center justify-center">
-      
+    <div
+      class="relative w-full max-w-80 sm:max-w-100 lg:max-w-125 xl:max-w-137.5 aspect-square flex items-center justify-center"
+    >
       <!-- The Lottie Animation: We disable pointer events here so its large transparent canvas doesn't trigger anything -->
       <Vue3Lottie
         :animationData="DeveloperAnimation"
@@ -21,17 +22,11 @@ const isHovered = ref(false)
       />
 
       <!-- THE MAGIC FIX: A smaller, invisible box placed exactly over the character's body to act as the ONLY hover trigger -->
-      <div 
+      <div
         class="absolute z-20 w-[50%] h-[70%] top-[15%] cursor-pointer"
         @mouseenter="isHovered = true"
         @mouseleave="isHovered = false"
       ></div>
-
     </div>
   </div>
 </template>
-
-<style scoped>
-/* You can apply CSS filters here if the original colors are too bright for the dark theme */
-/* example: filter: brightness(0.9) contrast(1.1); */
-</style>

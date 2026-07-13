@@ -1,21 +1,23 @@
 <script setup lang="ts">
 import HeroAnimation from './HeroAnimation.vue'
+import IconComponent from './IconComponent.vue'
 </script>
 
 <template>
   <section id="home" class="pt-32 pb-20">
     <div class="w-full max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 items-center">
-        <div class="px-4 order-2 md:order-1">
-          <h1
-            class="text-slate-200 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4"
-          >
-            <span class="text-olive-500">Halo, </span>Saya Irfan Aqila Utama
+        <header class="px-4 order-2 md:order-1">
+          <h1 class="text-slate-200 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
+            <span class="text-teal-500">Halo, </span>Saya Irfan Aqila Utama
           </h1>
           <p class="text-slate-400 font-medium text-sm md:text-base mb-4 max-w-xl">
             Membangun antarmuka web modern dengan kode yang bersih dan performa optimal.
           </p>
-          <div class="flex flex-wrap gap-3 md:gap-1 lg:gap-5 items-center justify-center md:justify-start">
+          <nav
+            aria-label="Tombol Wa dan Download CV"
+            class="flex flex-wrap gap-3 md:gap-1 lg:gap-5 items-center justify-center md:justify-start"
+          >
             <a
               href="https://wa.me/6287744884140"
               target="_blank"
@@ -23,6 +25,7 @@ import HeroAnimation from './HeroAnimation.vue'
               class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               <svg
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -43,6 +46,7 @@ import HeroAnimation from './HeroAnimation.vue'
               class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               <svg
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -58,11 +62,14 @@ import HeroAnimation from './HeroAnimation.vue'
               </svg>
               Download CV
             </a>
-          </div>
-        </div>
-        <div class="px-4 flex justify-center order-1 md:order-2 mb-5 md:mb-0">
+          </nav>
+          <nav aria-label="Social media">
+            <IconComponent />
+          </nav>
+        </header>
+        <figure class="px-4 flex justify-center order-1 md:order-2 mb-5 md:mb-0">
           <HeroAnimation />
-        </div>
+        </figure>
       </div>
     </div>
   </section>
