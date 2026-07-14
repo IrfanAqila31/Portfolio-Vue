@@ -4,12 +4,15 @@ import IconComponent from './IconComponent.vue'
 </script>
 
 <template>
-  <section id="home" class="pt-32 pb-20">
+  <section id="home" class="pt-32 pb-14">
     <div class="w-full max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 items-center">
         <header class="px-4 order-2 md:order-1">
           <h1 class="text-slate-200 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
-            <span class="text-teal-500">Halo, </span>Saya Irfan Aqila Utama
+            Saya
+            <span class="bg-linear-to-r from-teal-400 to to-emerald-400 bg-clip-text text-transparent"
+              >Irfan Aqila Utama
+            </span>
           </h1>
           <p class="text-slate-400 font-medium text-sm md:text-base mb-4 max-w-xl">
             Membangun antarmuka web modern dengan kode yang bersih dan performa optimal.

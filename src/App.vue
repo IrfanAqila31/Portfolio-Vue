@@ -2,6 +2,7 @@
 import SleekLineCursor from '@/components/SleekLineCursor.vue'
 import NavbarComponent from '@/components/NavbarComponent.vue'
 import HomeSection from '@/components/HomeSection.vue'
+import AboutSection from '@/components/AboutSection.vue'
 
 interface Props {
   friction?: number
@@ -36,5 +37,6 @@ const props = withDefaults(defineProps<Props>(), {
     />
 
     <HomeSection />
+    <AboutSection />
   </main>
 </template>

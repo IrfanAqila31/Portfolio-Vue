@@ -16,7 +16,10 @@
   },
   "dependencies": {
     "@iconify/vue": "^5.0.1",
+    "@inspira-ui/plugins": "^0.0.2",
+    "@lucide/vue": "^1.24.0",
     "@tailwindcss/vite": "^4.3.2",
+    "@vueuse/core": "^14.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "tailwind-merge": "^3.6.0",
