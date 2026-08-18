@@ -10,46 +10,46 @@ const isMobileMenuOpen = ref(false)
       aria-label="Navigasi Utama"
       class="bg-zinc-900/50 backdrop-blur-md border border-white/10 rounded-full w-full max-w-6xl px-6 py-3 md:py-4 flex items-center justify-between"
     >
-      <a href="#" class="text-lg md:text-xl font-bold text-slate-100" aria-label="Logo Mahreen"
+      <a href="#" class="text-lg md:text-xl font-bold text-zinc-100" aria-label="Logo Irfan Aqila Utama"
         >Irfan Aqila Utama</a
       >
       <div class="hidden lg:flex items-center space-x-8">
         <a
           href="#home"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Beranda</a
         >
         <a
           href="#paket-internet"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Tentang Saya</a
         >
         <a
           href="#area-layanan"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Proyek</a
         >
         <a
           href="#sertifikat"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Sertifikat</a
         >
         <a
           href="#skill"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Skills</a
         >
 
         <a
           href="#kontak"
-          class="text-sm font-bold text-slate-100 hover:text-violet-200 transition-colors"
+          class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Kontak</a
         >
       </div>
 
       <button
         @click="isMobileMenuOpen = !isMobileMenuOpen"
-        class="lg:hidden text-slate-50 hover:text-slate-100 focus:outline-none relative w-9 h-9 flex items-center justify-center"
+        class="lg:hidden text-zinc-50 hover:text-zinc-100 focus:outline-none relative w-9 h-9 flex items-center justify-center"
         aria-label="Buka Menu Utama"
       >
         <Transition name="rotate-fade">
@@ -91,42 +91,42 @@ const isMobileMenuOpen = ref(false)
         <a
           @click="isMobileMenuOpen = false"
           href="#home"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Beranda
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#tentang-saya"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Tentang Saya
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#proyek"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Proyek
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#sertifikat"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Sertifikat
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#skills"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Skills
         </a>
         <a
           @click="isMobileMenuOpen = false"
           href="#kontak"
-          class="text-base font-medium text-slate-50 hover:text-slate-100 p-3 rounded-lg transition-colors"
+          class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Kontak
         </a>

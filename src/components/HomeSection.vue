@@ -8,13 +8,10 @@ import IconComponent from './IconComponent.vue'
     <div class="w-full max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 items-center">
         <header class="px-4 order-2 md:order-1">
-          <h1 class="text-slate-200 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
-            Saya
-            <span class="bg-linear-to-r from-teal-400 to to-emerald-400 bg-clip-text text-transparent"
-              >Irfan Aqila Utama
-            </span>
+          <h1 class="text-zinc-100 font-extrabold text-4xl md:text-5xl lg:text-6xl mb-4">
+            Saya Irfan Aqila Utama
           </h1>
-          <p class="text-slate-400 font-medium text-sm md:text-base mb-4 max-w-xl">
+          <p class="text-zinc-300 font-medium text-sm md:text-base mb-4 max-w-xl">
             Membangun antarmuka web modern dengan kode yang bersih dan performa optimal.
           </p>
           <nav
