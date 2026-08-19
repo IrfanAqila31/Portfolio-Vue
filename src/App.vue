@@ -1,8 +1,9 @@
 <script setup lang="ts">
 // import SleekLineCursor from '@/components/SleekLineCursor.vue'
 import NavbarComponent from '@/components/NavbarComponent.vue'
-import HomeSection from '@/components/HomeSection.vue'
+import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import ProjectSection from '@/components/ProjectSection.vue'
 
 // interface Props {
 //   friction?: number
@@ -25,9 +26,7 @@ import AboutSection from '@/components/AboutSection.vue'
   <header>
     <NavbarComponent />
   </header>
-  <main
-    class="bg-zinc-950"
-  >
+  <main class="bg-zinc-950">
     <!-- <SleekLineCursor
       :friction="props.friction"
       :trails="props.trails"
@@ -36,7 +35,8 @@ import AboutSection from '@/components/AboutSection.vue'
       :tension="props.tension"
     /> -->
 
-    <HomeSection />
+    <HeroSection />
     <AboutSection />
+    <ProjectSection />
   </main>
 </template>

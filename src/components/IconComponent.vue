@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <div class="flex gap-6 mt-4 justify-start">
+  <div class="flex gap-6 mt-7 justify-center md:justify-start">
     <a
       href="https://github.com/IrfanAqila31"
       target="_blank"

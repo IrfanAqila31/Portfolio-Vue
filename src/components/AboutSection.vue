@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import GlareCard from '@/components/glare-card/GlareCard.vue'
+import IconComponent from './IconComponent.vue'
 // import { computed } from 'vue'
 
 // interface Props {
@@ -21,9 +22,9 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
 
 <template>
   <section id="about" class="pt-32 pb-26">
-    <div class="w-full max-w-6xl mx-auto">
+    <div class="w-full max-w-6xl mx-auto px-4">
       <div class="grid grid-cols-1 gap-8 md:grid-cols-12 items-center">
-        <figure class="md:col-span-5 flex justify-center lg:justify-start">
+        <figure class="md:col-span-5 flex justify-center lg:justify-start mb-10 md:mb-0">
           <GlareCard class="flex flex-col items-center justify-center bg-zinc-900 ">
             <img src="../assets/img/saya.webp" alt="Foto Profil Irfan Aqila" />
           </GlareCard>
@@ -39,6 +40,9 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
             <p class="text-sm text-slate-400 mt-3 leading-relaxed max-w-lg">
               Fresh Graduate - Universitas Pendidikan Mandalika
             </p>
+            <p class="text-sm text-slate-400 leading-relaxed max-w-lg">
+              Lombok Tengah, Nusa Tenggara Barat
+            </p>
           </header>
           <p class="text-slate-300 text-base/relaxed">
             Lulusan S1 Pendidikan Teknologi Informasi dari Universitas Pendidikan Mandalika dengan
@@ -48,6 +52,9 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
             pribadi yang membuktikan kompetensi teknis serta kesiapan untuk berkontribusi langsung
             pada proyek nyata.
           </p>
+          <nav aria-label="Social media">
+            <IconComponent />
+          </nav>
         </article>
       </div>
     </div>
