@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import ProjectCard from './ProjectCard.vue'
 
+
 const projects = [
   {
     id: 1,
-    title: 'Sistem Informasi Pendaftaran',
+    title: 'Website Sales Provider Internet',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-    techStack: ['Vue.js', 'Tailwind CSS', 'Firebase'],
+      '/projects/web-sales.webp',
+    techStack: ['Vue.js', 'Tailwind CSS'],
     githubUrl: 'https://github.com',
     previewUrl: 'https://preview.com',
     detailUrl: '#detail-1',

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HeroAnimation from './HeroAnimation.vue'
-// import IconComponent from './IconComponent.vue'
+import IconComponent from './IconComponent.vue'
 import { Icon } from '@iconify/vue'
 </script>
 
@@ -23,23 +23,30 @@ import { Icon } from '@iconify/vue'
               href="https://wa.me/6287744884140"
               target="_blank"
               rel="noopener noreferrer"
-              class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
+              class="group py-3 px-4 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center justify-center gap-3 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
-              <Icon icon="lucide:message-square-text" width="22" />
-
               Hubungi Saya
+              <Icon
+                icon="lucide:move-right"
+                width="18"
+                class="transition-transform duration-300 group-hover:translate-x-1"
+              />
             </a>
             <a
               href="#paket-internet"
-              class="py-3 px-4 md:px-5 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center gap-2 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
+              class="group py-3 px-4 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center justify-center gap-3 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
-              <Icon icon="mdi:file-download-outline" width="24" />
-              Download CV
+              Lihat Project
+              <Icon
+                icon="lucide:chevron-down"
+                width="18"
+                class="transition-transform duration-300 group-hover:translate-y-1"
+              />
             </a>
           </nav>
-          <!-- <nav aria-label="Social media">
+          <nav aria-label="Social media">
             <IconComponent />
-          </nav> -->
+          </nav>
         </header>
         <figure class="px-4 flex justify-center order-1 md:order-2 mb-5 md:mb-0">
           <HeroAnimation />
