@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import ProjectCard from './ProjectCard.vue'
 
-
 const projects = [
   {
     id: 1,
     title: 'Website Sales Provider Internet',
-    image:
-      '/projects/web-sales.webp',
+    image: '/projects/web-sales.webp',
     techStack: ['Vue.js', 'Tailwind CSS'],
     githubUrl: 'https://github.com',
     previewUrl: 'https://preview.com',
@@ -15,34 +13,32 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Aplikasi E-Commerce Minimalis',
-    image:
-      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
-    techStack: ['React', 'Next.js', 'Prisma'],
+    title: 'Company Profile Vertex Living Residence',
+    image: '/projects/company-profile-vertex.webp',
+    techStack: ['Vue.js', 'Typescript', 'Tailwind CSS', 'Vue Router'],
     githubUrl: 'https://github.com',
-    previewUrl: 'https://preview.com',
+    // previewUrl: 'https://preview.com',
     detailUrl: '#detail-2',
   },
   {
-    id: 2,
-    title: 'Aplikasi E-Commerce Minimalis',
-    image:
-      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
-    techStack: ['React', 'Next.js', 'Prisma'],
+    id: 3,
+    title: 'Easy Caption',
+    image: '/projects/easy-caption.webp',
+    techStack: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vue Router'],
     githubUrl: 'https://github.com',
-    previewUrl: 'https://preview.com',
+    // previewUrl: 'https://preview.com',
     detailUrl: '#detail-2',
   },
-  {
-    id: 2,
-    title: 'Aplikasi E-Commerce Minimalis',
-    image:
-      'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
-    techStack: ['React', 'Next.js', 'Prisma'],
-    githubUrl: 'https://github.com',
-    previewUrl: 'https://preview.com',
-    detailUrl: '#detail-2',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Aplikasi E-Commerce Minimalis',
+  //   image:
+  //     'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
+  //   techStack: ['React', 'Next.js', 'Prisma'],
+  //   githubUrl: 'https://github.com',
+  //   previewUrl: 'https://preview.com',
+  //   detailUrl: '#detail-2',
+  // },
 ]
 </script>
 

@@ -6,7 +6,7 @@ defineProps<{
   image: string
   techStack: string[]
   githubUrl: string
-  previewUrl: string
+  previewUrl?: string
   detailUrl: string
 }>()
 </script>
@@ -27,7 +27,7 @@ defineProps<{
         {{ title }}
       </h3>
 
-      <div class="flex flex-wrap gap-1.5 mb-5 mt-auto">
+      <div class="flex flex-wrap gap-1.5 mb-5">
         <span 
           v-for="tech in techStack" 
           :key="tech"
@@ -37,7 +37,7 @@ defineProps<{
         </span>
       </div>
 
-      <div class="flex items-center gap-2 pt-3 border-t border-zinc-800/80">
+      <div class="flex items-center gap-2 pt-3 mt-auto border-t border-zinc-800/80">
         
         <a 
           :href="detailUrl" 
@@ -57,6 +57,7 @@ defineProps<{
         </a>
 
         <a 
+        v-if="previewUrl"
           :href="previewUrl" 
           target="_blank"
           class="flex items-center justify-center bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white p-2 rounded-lg transition-colors"
