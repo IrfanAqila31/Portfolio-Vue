@@ -4,6 +4,7 @@ import NavbarComponent from '@/components/NavbarComponent.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import ProjectSection from '@/components/ProjectSection.vue'
+import CertificateSection from '@/components/CertificateSection.vue'
 
 // interface Props {
 //   friction?: number
@@ -38,5 +39,6 @@ import ProjectSection from '@/components/ProjectSection.vue'
     <HeroSection />
     <AboutSection />
     <ProjectSection />
+    <CertificateSection />
   </main>
 </template>
