@@ -13,15 +13,15 @@ const sendEmail = () => {
 
   emailjs
     .sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
       import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       form.value,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
     )
     .then(
       () => {
         statusMessage.value = 'Pesan berhasil terkirim! Terima kasih.'
-        form.value?.reset() 
+        form.value?.reset()
       },
       (error) => {
         console.error('GAGAL...', error.text)
