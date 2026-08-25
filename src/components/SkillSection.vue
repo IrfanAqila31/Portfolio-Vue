@@ -42,7 +42,6 @@ const skillCategories = [
 <template>
   <section id="skills" class="pt-24 pb-26">
     <div class="w-full max-w-6xl mx-auto px-4">
-      <!-- Judul & Deskripsi Utama -->
       <header class="mb-14 text-left">
         <span class="text-zinc-400 font-bold uppercase text-xs md:text-sm mb-2 block">
           Keahlian
@@ -54,11 +53,8 @@ const skillCategories = [
         </p>
       </header>
 
-      <!-- Daftar Kategori Skill -->
       <div class="space-y-12">
-        <!-- Semantik: Setiap kategori adalah section tersendiri -->
         <section v-for="(category, index) in skillCategories" :key="category.title">
-          <!-- Semantik: Header untuk judul kategori -->
           <header class="flex items-center gap-4 mb-6">
             <span class="text-zinc-400 font-mono font-bold text-sm">{{ index + 1 }}</span>
             <h3 class="text-sm md:text-base font-bold text-zinc-200 uppercase tracking-widest">
@@ -67,7 +63,6 @@ const skillCategories = [
             <div class="flex-1 h-px bg-zinc-800/50"></div>
           </header>
 
-          <!-- Grid Kotak-Kotak Logo -->
           <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 md:gap-4">
             <SkillItem
               v-for="skill in category.skills"

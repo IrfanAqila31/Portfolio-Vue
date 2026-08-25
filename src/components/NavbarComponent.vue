@@ -10,7 +10,10 @@ const isMobileMenuOpen = ref(false)
       aria-label="Navigasi Utama"
       class="bg-zinc-900/50 backdrop-blur-md border border-white/10 rounded-full w-full max-w-6xl px-6 py-3 md:py-4 flex items-center justify-between"
     >
-      <a href="#" class="text-lg md:text-xl font-bold text-zinc-100" aria-label="Logo Irfan Aqila Utama"
+      <a
+        href="#"
+        class="text-lg md:text-xl font-bold text-zinc-100"
+        aria-label="Logo Irfan Aqila Utama"
         >Irfan Aqila Utama</a
       >
       <div class="hidden lg:flex items-center space-x-8">
@@ -20,12 +23,12 @@ const isMobileMenuOpen = ref(false)
           >Beranda</a
         >
         <a
-          href="#paket-internet"
+          href="#about"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Tentang Saya</a
         >
         <a
-          href="#area-layanan"
+          href="#project"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Proyek</a
         >
@@ -35,13 +38,13 @@ const isMobileMenuOpen = ref(false)
           >Sertifikat</a
         >
         <a
-          href="#skill"
+          href="#skills"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Skills</a
         >
 
         <a
-          href="#kontak"
+          href="#contact"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
           >Kontak</a
         >
@@ -97,14 +100,14 @@ const isMobileMenuOpen = ref(false)
         </a>
         <a
           @click="isMobileMenuOpen = false"
-          href="#tentang-saya"
+          href="#about"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Tentang Saya
         </a>
         <a
           @click="isMobileMenuOpen = false"
-          href="#proyek"
+          href="#project"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Proyek
@@ -125,7 +128,7 @@ const isMobileMenuOpen = ref(false)
         </a>
         <a
           @click="isMobileMenuOpen = false"
-          href="#kontak"
+          href="#contact"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Kontak

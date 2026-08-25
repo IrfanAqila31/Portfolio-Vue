@@ -6,6 +6,8 @@ import AboutSection from '@/components/AboutSection.vue'
 import ProjectSection from '@/components/ProjectSection.vue'
 import CertificateSection from '@/components/CertificateSection.vue'
 import SkillSection from '@/components/SkillSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
+import FooterSection from '@/components/FooterSection.vue'
 
 // interface Props {
 //   friction?: number
@@ -42,5 +44,9 @@ import SkillSection from '@/components/SkillSection.vue'
     <ProjectSection />
     <CertificateSection />
     <SkillSection />
+    <ContactSection />
   </main>
+  <footer class="bg-zinc-950">
+    <FooterSection />
+  </footer>
 </template>

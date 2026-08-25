@@ -43,7 +43,7 @@ const projects = [
 </script>
 
 <template>
-  <section id="proyek" class="pt-24 pb-26">
+  <section id="project" class="pt-24 pb-26">
     <div class="w-full max-w-6xl mx-auto px-4">
       <header class="mb-10">
         <span class="text-zinc-400 font-bold uppercase text-xs md:text-sm mb-2 block"

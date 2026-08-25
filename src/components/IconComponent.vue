@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
+
+withDefaults(defineProps<{ centerOnMobile?: boolean }>(), {
+  centerOnMobile: false,
+})
 </script>
 
 <template>
-  <div class="flex gap-6 mt-7 justify-center md:justify-start">
+  <div
+    class="flex gap-6 mt-7"
+    :class="centerOnMobile ? 'justify-center md:justify-start' : 'justify-start'"
+  >
     <a
       href="https://github.com/IrfanAqila31"
       target="_blank"
