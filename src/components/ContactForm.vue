@@ -1,5 +1,37 @@
 <script setup lang="ts">
-// import { Icon } from '@iconify/vue'
+import { ref } from 'vue'
+import emailjs from '@emailjs/browser'
+
+const form = ref<HTMLFormElement | null>(null)
+const isSubmitting = ref(false)
+const statusMessage = ref('')
+
+const sendEmail = () => {
+  if (!form.value) return
+  isSubmitting.value = true
+  statusMessage.value = ''
+
+  emailjs
+    .sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.value,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+    .then(
+      () => {
+        statusMessage.value = 'Pesan berhasil terkirim! Terima kasih.'
+        form.value?.reset() 
+      },
+      (error) => {
+        console.error('GAGAL...', error.text)
+        statusMessage.value = 'Gagal mengirim pesan. Silakan coba lagi.'
+      },
+    )
+    .finally(() => {
+      isSubmitting.value = false
+    })
+}
 </script>
 
 <template>
@@ -8,16 +40,10 @@
       class="bg-zinc-900/40 border border-white/5 rounded-3xl p-7 md:p-10 relative overflow-hidden h-full"
     >
       <header>
-        <h2 class="text-3xl md:text-4xl font-bold text-zinc-200 mb-8">
-          Mulai Proyek Bersama
-        </h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-zinc-200 mb-8">Mulai Proyek Bersama</h2>
       </header>
 
-      <form
-        class="flex flex-col gap-5"
-        action="https://formspree.io/f/YOUR_FORM_ID"
-        method="POST"
-      >
+      <form ref="form" @submit.prevent="sendEmail" class="flex flex-col gap-5">
         <fieldset class="flex flex-col md:flex-row gap-5 border-none p-0 m-0">
           <legend class="sr-only">Informasi Personal</legend>
 
@@ -70,11 +96,20 @@
           ></textarea>
         </div>
 
+        <p
+          v-if="statusMessage"
+          class="text-sm font-medium mt-1"
+          :class="statusMessage.includes('berhasil') ? 'text-green-400' : 'text-red-400'"
+        >
+          {{ statusMessage }}
+        </p>
+
         <button
           type="submit"
-          class="w-full bg-zinc-800 hover:bg-zinc-700 text-white rounded-xl py-4 text-sm font-semibold transition-colors cursor-pointer"
+          :disabled="isSubmitting"
+          class="w-full bg-zinc-800 hover:bg-zinc-700 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-xl py-4 text-sm font-semibold transition-colors cursor-pointer mt-2"
         >
-          Send Message
+          {{ isSubmitting ? 'Mengirim Pesan...' : 'Send Message' }}
         </button>
       </form>
     </div>
