@@ -27,8 +27,8 @@ import IconComponent from './IconComponent.vue'
             <a href="#about" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
               >Tentang Saya</a
             >
-            <a href="#projects" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Proyek</a
+            <a href="#project" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Project</a
             >
             <a href="#skills" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
               >Keahlian</a

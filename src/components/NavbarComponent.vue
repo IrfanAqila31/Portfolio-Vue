@@ -30,7 +30,7 @@ const isMobileMenuOpen = ref(false)
         <a
           href="#project"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Proyek</a
+          >Project</a
         >
         <a
           href="#sertifikat"
@@ -110,7 +110,7 @@ const isMobileMenuOpen = ref(false)
           href="#project"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
-          Proyek
+          Project
         </a>
         <a
           @click="isMobileMenuOpen = false"

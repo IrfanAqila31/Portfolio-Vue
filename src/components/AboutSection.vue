@@ -75,13 +75,13 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
           </nav> -->
           <div class="flex flex-wrap justify-center md:justify-start gap-3 md:gap-1 lg:gap-5 items-center mt-10">
             <a
-              href="#paket-internet"
+              href="#"
               class="py-3 px-6 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium inline-flex items-center justify-center hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               Download CV
             </a>
             <a
-              href="#paket-internet"
+              href="#contact"
               class="py-3 px-6 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium inline-flex items-center justify-center hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               Ajak Diskusi

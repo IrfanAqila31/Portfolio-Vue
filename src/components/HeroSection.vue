@@ -20,8 +20,7 @@ import { Icon } from '@iconify/vue'
             class="flex flex-wrap gap-3 md:gap-1 lg:gap-5 items-center justify-center md:justify-start"
           >
             <a
-              href="https://wa.me/6287744884140"
-              target="_blank"
+              href="#contact"
               rel="noopener noreferrer"
               class="group py-3 px-4 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center justify-center gap-3 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
@@ -33,7 +32,7 @@ import { Icon } from '@iconify/vue'
               />
             </a>
             <a
-              href="#paket-internet"
+              href="#project"
               class="group py-3 px-4 lg:px-7 text-sm rounded-full bg-zinc-900/50 border border-white/10 text-slate-100 font-medium flex items-center justify-center gap-3 hover:shadow-white/10 hover:border-white/30 hover:bg-white/10 transition duration-300"
             >
               Lihat Project
