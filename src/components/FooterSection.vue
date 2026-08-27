@@ -7,7 +7,7 @@ import IconComponent from './IconComponent.vue'
     <div class="bg-zinc-900/40 border border-white/5 rounded-3xl p-8 md:p-12 mb-6">
       <div class="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
         <div class="lg:w-1/3 flex flex-col gap-4">
-          <a href="#" class="text-2xl font-bold text-white tracking-wide"> Irfan Aqila Utama </a>
+          <router-link to="/" class="text-2xl font-bold text-white tracking-wide"> Irfan Aqila Utama </router-link>
           <p class="text-zinc-400 text-sm leading-relaxed mt-2">
             Seorang Frontend Developer yang berfokus pada pembuatan website modern, responsif, dan
             interaktif dengan desain UI/UX yang elegan.
@@ -21,52 +21,22 @@ import IconComponent from './IconComponent.vue'
         <div class="lg:w-1/2 grid grid-cols-2 gap-8 md:gap-16">
           <div class="flex flex-col gap-4">
             <h4 class="text-zinc-100 font-semibold mb-2 text-sm">Navigasi</h4>
-            <a href="#home" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Beranda</a
+            <router-link to="/#home" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Beranda</router-link
             >
-            <a href="#about" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Tentang Saya</a
+            <router-link to="/#about" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Tentang Saya</router-link
             >
-            <a href="#project" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Project</a
+            <router-link to="/#project" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Project</router-link
             >
-            <a href="#skills" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Keahlian</a
+            <router-link to="/#skills" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Keahlian</router-link
             >
-            <a href="#contact" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Kontak</a
+            <router-link to="/#contact" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
+              >Kontak</router-link
             >
           </div>
-
-          <!-- <div class="flex flex-col gap-4">
-            <h4 class="text-zinc-100 font-semibold mb-2 text-sm">Sosial Media</h4>
-            <a
-              href="https://github.com/IrfanAqila31"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >GitHub</a
-            >
-            <a
-              href="https://www.linkedin.com/in/irfan-aqila-utama/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >LinkedIn</a
-            >
-            <a
-              href="https://www.instagram.com/___quinncyy/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Instagram</a
-            >
-            <a
-              href="mailto:irfanaqila31@gmail.com"
-              class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
-              >Email</a
-            >
-          </div> -->
         </div>
       </div>
     </div>

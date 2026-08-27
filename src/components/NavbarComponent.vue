@@ -10,43 +10,42 @@ const isMobileMenuOpen = ref(false)
       aria-label="Navigasi Utama"
       class="bg-zinc-900/50 backdrop-blur-md border border-white/10 rounded-full w-full max-w-6xl px-6 py-3 md:py-4 flex items-center justify-between"
     >
-      <a
-        href="#"
+      <router-link
+        to="/"
         class="text-lg md:text-xl font-bold text-zinc-100"
         aria-label="Logo Irfan Aqila Utama"
-        >Irfan Aqila Utama</a
+        >Irfan Aqila Utama</router-link
       >
       <div class="hidden lg:flex items-center space-x-8">
-        <a
-          href="#home"
+        <router-link
+          to="/#home"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Beranda</a
+          >Beranda</router-link
         >
-        <a
-          href="#about"
+        <router-link
+          to="/#about"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Tentang Saya</a
+          >Tentang Saya</router-link
         >
-        <a
-          href="#project"
+        <router-link
+          to="/#project"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Project</a
+          >Project</router-link
         >
-        <a
-          href="#sertifikat"
+        <router-link
+          to="/#sertifikat"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Sertifikat</a
+          >Sertifikat</router-link
         >
-        <a
-          href="#skills"
+        <router-link
+          to="/#skills"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Skills</a
+          >Skills</router-link
         >
-
-        <a
-          href="#contact"
+        <router-link
+          to="/#contact"
           class="text-sm font-bold text-zinc-100 hover:text-zinc-200 transition duration-300"
-          >Kontak</a
+          >Kontak</router-link
         >
       </div>
 
@@ -91,48 +90,48 @@ const isMobileMenuOpen = ref(false)
         v-show="isMobileMenuOpen"
         class="absolute top-16 left-4 right-4 bg-zinc-900/50 backdrop-blur-md border border-white/10 rounded-3xl shadow-xl p-5 lg:hidden flex flex-col space-y-2"
       >
-        <a
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#home"
+          to="/#home"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Beranda
-        </a>
-        <a
+        </router-link>
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#about"
+          to="/#about"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Tentang Saya
-        </a>
-        <a
+        </router-link>
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#project"
+          to="/#project"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Project
-        </a>
-        <a
+        </router-link>
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#sertifikat"
+          to="/#sertifikat"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Sertifikat
-        </a>
-        <a
+        </router-link>
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#skills"
+          to="/#skills"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Skills
-        </a>
-        <a
+        </router-link>
+        <router-link
           @click="isMobileMenuOpen = false"
-          href="#contact"
+          to="/#contact"
           class="text-base font-medium text-zinc-100 hover:text-zinc-100 p-3 rounded-lg transition duration-300"
         >
           Kontak
-        </a>
+        </router-link>
       </div>
     </transition>
   </header>
