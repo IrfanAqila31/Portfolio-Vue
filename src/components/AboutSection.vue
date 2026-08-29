@@ -26,7 +26,13 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
       <div class="grid grid-cols-1 gap-8 md:grid-cols-12 items-center">
         <figure class="md:col-span-5 flex justify-center lg:justify-start mb-10 md:mb-0">
           <GlareCard class="flex flex-col items-center justify-center bg-zinc-900">
-            <img src="../assets/img/saya.webp" alt="Foto Profil Irfan Aqila" />
+            <img
+              src="../assets/img/saya.webp"
+              alt="Foto Profil Irfan Aqila"
+              width="400"
+              height="500"
+              class="w-full h-auto"
+            />
           </GlareCard>
         </figure>
         <article class="md:col-span-7">
@@ -37,30 +43,42 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-300">
               Irfan Aqila Utama
             </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8 mt-6 mb-6 border-y border-zinc-800/80 py-6">
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8 mt-6 mb-6 border-y border-zinc-800/80 py-6"
+            >
               <div>
                 <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Lokasi</span>
-                <p class="text-sm font-medium text-zinc-300 mt-1">Lombok Tengah, Nusa Tenggara Barat</p>
+                <p class="text-sm font-medium text-zinc-300 mt-1">
+                  Lombok Tengah, Nusa Tenggara Barat
+                </p>
               </div>
-              
+
               <div>
-                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Pendidikan</span>
-                <p class="text-sm font-medium text-zinc-300 mt-1">Fresh Graduate - Univ. Pendidikan Mandalika</p>
+                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider"
+                  >Pendidikan</span
+                >
+                <p class="text-sm font-medium text-zinc-300 mt-1">
+                  Fresh Graduate - Univ. Pendidikan Mandalika
+                </p>
               </div>
 
               <div>
                 <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Email</span>
-                <a href="mailto:irfanaqila31@gmail.com" class="text-sm font-medium text-zinc-300 mt-1 hover:text-zinc-400 transition-colors block">
+                <a
+                  href="mailto:irfanaqila31@gmail.com"
+                  class="text-sm font-medium text-zinc-300 mt-1 hover:text-zinc-400 transition-colors block"
+                >
                   irfanaqila31@gmail.com
                 </a>
               </div>
 
               <div>
                 <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Status</span>
-                <p class="text-sm font-medium text-zinc-300 mt-1">Mencari Kerja, Magang & Freelance</p>
+                <p class="text-sm font-medium text-zinc-300 mt-1">
+                  Mencari Kerja, Magang & Freelance
+                </p>
               </div>
             </div>
-
           </header>
           <p class="text-slate-300 text-base/relaxed">
             Lulusan S1 Pendidikan Teknologi Informasi dari Universitas Pendidikan Mandalika dengan
@@ -73,7 +91,9 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
           <!-- <nav aria-label="Social media">
             <IconComponent />
           </nav> -->
-          <div class="flex flex-wrap justify-center md:justify-start gap-3 md:gap-1 lg:gap-5 items-center mt-10">
+          <div
+            class="flex flex-wrap justify-center md:justify-start gap-3 md:gap-1 lg:gap-5 items-center mt-10"
+          >
             <a
               href="/CV.pdf"
               download="CV_Irfan_Aqila_Utama"

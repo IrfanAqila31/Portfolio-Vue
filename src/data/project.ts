@@ -30,7 +30,7 @@ export const projectList: ProjectItem[] = [
     description: 'Platform penjualan layanan internet interaktif',
     fullDescription:
       'Proyek ini adalah pembuatan website penjualan untuk penyedia layanan internet. Website ini berfokus pada kecepatan, responsivitas, dan kemudahan pengguna untuk memesan paket internet secara langsung.',
-    thumbnail: '/projects/web-sales/web-sales.webp',
+    thumbnail: '/projects/web-sales/web-sales-thumb.webp',
     images: [
       '/projects/web-sales/web-sales.webp',
       '/projects/web-sales/web-sales-2.webp',
@@ -50,7 +50,7 @@ export const projectList: ProjectItem[] = [
     description: 'Website company profile elegan untuk perumahan',
     fullDescription:
       'Proyek pembuatan company profile untuk perumahan Vertex Living Residence dengan desain yang modern dan elegan, menonjolkan tipe-tipe rumah dan fasilitas perumahan.',
-    thumbnail: '/projects/company-profile-vertex/company-profile-vertex.webp',
+    thumbnail: '/projects/company-profile-vertex/company-profile-vertex-thumb.webp',
     images: [
       '/projects/company-profile-vertex/company-profile-vertex.webp',
       '/projects/company-profile-vertex/company-profile-vertex-2.webp',
@@ -70,7 +70,7 @@ export const projectList: ProjectItem[] = [
     description: 'Aplikasi pembuat caption otomatis',
     fullDescription:
       'Aplikasi berbasis web untuk membantu konten kreator membuat caption media sosial secara otomatis dan mudah.',
-    thumbnail: '/projects/easy-caption/easy-caption.webp',
+    thumbnail: '/projects/easy-caption/easy-caption-thumb.webp',
     images: [
       '/projects/easy-caption/easy-caption.webp',
       '/projects/easy-caption/easy-caption-2.webp',
