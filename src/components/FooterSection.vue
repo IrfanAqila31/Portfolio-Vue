@@ -20,7 +20,7 @@ import IconComponent from './IconComponent.vue'
 
         <div class="lg:w-1/2 grid grid-cols-2 gap-8 md:gap-16">
           <div class="flex flex-col gap-4">
-            <h4 class="text-zinc-100 font-semibold mb-2 text-sm">Navigasi</h4>
+            <h2 class="text-zinc-100 font-semibold mb-2 text-sm">Navigasi</h2>
             <router-link to="/#home" class="text-zinc-400 hover:text-zinc-500 text-sm transition-colors"
               >Beranda</router-link
             >
@@ -42,11 +42,11 @@ import IconComponent from './IconComponent.vue'
     </div>
 
     <div class="flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-8">
-      <p class="text-zinc-500 text-xs text-center md:text-left">
+      <p class="text-zinc-400 text-xs text-center md:text-left">
         &copy; {{ new Date().getFullYear() }} Irfan Aqila Utama. All rights reserved.
       </p>
 
-      <div class="flex gap-4 text-xs text-zinc-500">
+      <div class="flex gap-4 text-xs text-zinc-400">
         <span
           >Dibuat dengan <span class="text-zinc-300 font-medium">Vue.js</span> &
           <span class="text-zinc-300 font-medium"> TailwindCSS</span></span

@@ -16,7 +16,7 @@ import IconComponent from './IconComponent.vue'
             <Icon icon="lucide:mail" class="w-6 h-6" />
           </div>
           <div class="pt-1">
-            <h4 class="text-zinc-500 text-xs font-semibold uppercase mb-1">Email Saya</h4>
+            <h4 class="text-zinc-400 text-xs font-semibold uppercase mb-1">Email Saya</h4>
             <a
               href="mailto:irfanaqila31@gmail.com"
               class="text-zinc-200 text-sm hover:text-white transition-colors block mb-1"
@@ -32,7 +32,7 @@ import IconComponent from './IconComponent.vue'
             <Icon icon="lucide:phone" class="w-6 h-6" />
           </div>
           <div class="pt-1">
-            <h4 class="text-zinc-500 text-xs font-semibold uppercase mb-1">Nomor WA/Telepon</h4>
+            <h4 class="text-zinc-400 text-xs font-semibold uppercase mb-1">Nomor WA/Telepon</h4>
             <p class="text-zinc-200 text-sm block mb-1">+62 87795528998</p>
             <p class="text-zinc-200 text-sm block mb-1">+62 85338564871</p>
           </div>
@@ -45,7 +45,7 @@ import IconComponent from './IconComponent.vue'
             <Icon icon="lucide:map-pin" class="w-6 h-6" />
           </div>
           <div class="pt-1">
-            <h4 class="text-zinc-500 text-xs font-semibold uppercase mb-1">Lokasi</h4>
+            <h4 class="text-zinc-400 text-xs font-semibold uppercase mb-1">Lokasi</h4>
             <p class="text-zinc-200 text-sm leading-relaxed">
               Lombok Tengah, NTB<br />
               Siap Bekerja Remote

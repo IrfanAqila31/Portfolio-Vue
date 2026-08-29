@@ -37,6 +37,7 @@ defineProps<{
       <div class="flex items-center gap-2 pt-3 mt-auto border-t border-zinc-800/80">
         <router-link
           :to="{ name: 'project-detail', params: { slug: id } }"
+          :aria-label="'Lihat detail proyek ' + title"
           class="flex-1 flex items-center justify-center gap-1.5 bg-zinc-700/50 hover:bg-zinc-600/50 text-zinc-200 text-xs font-bold py-2 px-3 rounded-lg transition-colors"
         >
           <Icon icon="mdi:eye" width="16" />

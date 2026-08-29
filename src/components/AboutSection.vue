@@ -39,24 +39,24 @@ import GlareCard from '@/components/glare-card/GlareCard.vue'
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8 mt-6 mb-6 border-y border-zinc-800/80 py-6">
               <div>
-                <span class="text-xs font-bold text-zinc-500 uppercase tracking-wider">Lokasi</span>
+                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Lokasi</span>
                 <p class="text-sm font-medium text-zinc-300 mt-1">Lombok Tengah, Nusa Tenggara Barat</p>
               </div>
               
               <div>
-                <span class="text-xs font-bold text-zinc-500 uppercase tracking-wider">Pendidikan</span>
+                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Pendidikan</span>
                 <p class="text-sm font-medium text-zinc-300 mt-1">Fresh Graduate - Univ. Pendidikan Mandalika</p>
               </div>
 
               <div>
-                <span class="text-xs font-bold text-zinc-500 uppercase tracking-wider">Email</span>
+                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Email</span>
                 <a href="mailto:irfanaqila31@gmail.com" class="text-sm font-medium text-zinc-300 mt-1 hover:text-zinc-400 transition-colors block">
                   irfanaqila31@gmail.com
                 </a>
               </div>
 
               <div>
-                <span class="text-xs font-bold text-zinc-500 uppercase tracking-wider">Status</span>
+                <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Status</span>
                 <p class="text-sm font-medium text-zinc-300 mt-1">Mencari Kerja, Magang & Freelance</p>
               </div>
             </div>
