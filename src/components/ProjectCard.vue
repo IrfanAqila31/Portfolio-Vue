@@ -44,6 +44,7 @@ defineProps<{
         </router-link>
 
         <a
+          v-if="githubUrl"
           :href="githubUrl"
           target="_blank"
           class="flex items-center justify-center bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white p-2 rounded-lg transition-colors"

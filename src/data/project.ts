@@ -79,9 +79,11 @@ export const projectList: ProjectItem[] = [
     ],
     details: {
       client: 'Personal Project',
-      year: '2024',
+      year: '2026',
     },
     techStack: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vue Router'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/IrfanAqila31/nexa-web',
+    previewUrl: 'https://nexa-web-nine.vercel.app/',
+
   },
 ]

@@ -22,6 +22,7 @@ import { projectList, generateSlug } from '@/data/project'
           :thumbnail="project.thumbnail"
           :tech-stack="project.techStack"
           :preview-url="project.previewUrl"
+          :github-url="project.githubUrl"
         />
       </div>
     </div>
