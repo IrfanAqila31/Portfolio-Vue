@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import HeroAnimation from './HeroAnimation.vue'
+import { defineAsyncComponent } from 'vue'
 import IconComponent from './IconComponent.vue'
 import { Icon } from '@iconify/vue'
+
+const HeroAnimation = defineAsyncComponent(() => import('./HeroAnimation.vue'))
 </script>
 
 <template>
