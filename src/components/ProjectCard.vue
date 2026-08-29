@@ -16,7 +16,7 @@ defineProps<{
     class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-zinc-700 transition-all duration-300 group flex flex-col"
   >
     <figure class="relative aspect-video overflow-hidden border-b border-zinc-800">
-      <img :src="thumbnail" :alt="title" class="w-full h-full object-cover" />
+      <img :src="thumbnail" :alt="title" loading="lazy" class="w-full h-full object-cover" />
     </figure>
 
     <div class="p-5 flex flex-col grow">
