@@ -65,25 +65,25 @@ export const projectList: ProjectItem[] = [
     githubUrl: 'https://github.com/IrfanAqila31/klien-company-profile',
     previewUrl: 'https://company-profile-vertex-theta.vercel.app/',
   },
-  {
-    title: 'Easy Caption',
-    description: 'Aplikasi pembuat caption otomatis',
-    fullDescription:
-      'Aplikasi berbasis web untuk membantu konten kreator membuat caption media sosial secara otomatis dan mudah.',
-    thumbnail: '/projects/easy-caption/easy-caption-thumb.webp',
-    images: [
-      '/projects/easy-caption/easy-caption.webp',
-      '/projects/easy-caption/easy-caption-2.webp',
-      '/projects/easy-caption/easy-caption-3.webp',
-      '/projects/easy-caption/easy-caption-4.webp',
-    ],
-    details: {
-      client: 'Personal Project',
-      year: '2026',
-    },
-    techStack: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vue Router'],
-    githubUrl: 'https://github.com/IrfanAqila31/nexa-web',
-    previewUrl: 'https://nexa-web-nine.vercel.app/',
+  // {
+  //   title: 'Easy Caption',
+  //   description: 'Aplikasi pembuat caption otomatis',
+  //   fullDescription:
+  //     'Aplikasi berbasis web untuk membantu konten kreator membuat caption media sosial secara otomatis dan mudah.',
+  //   thumbnail: '/projects/easy-caption/easy-caption-thumb.webp',
+  //   images: [
+  //     '/projects/easy-caption/easy-caption.webp',
+  //     '/projects/easy-caption/easy-caption-2.webp',
+  //     '/projects/easy-caption/easy-caption-3.webp',
+  //     '/projects/easy-caption/easy-caption-4.webp',
+  //   ],
+  //   details: {
+  //     client: 'Personal Project',
+  //     year: '2026',
+  //   },
+  //   techStack: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Pinia', 'Vue Router'],
+  //   githubUrl: 'https://github.com/IrfanAqila31/nexa-web',
+  //   previewUrl: 'https://nexa-web-nine.vercel.app/',
 
-  },
+  // },
 ]
