@@ -62,8 +62,8 @@ export const projectList: ProjectItem[] = [
       year: '2026',
     },
     techStack: ['Vue.js', 'Typescript', 'Tailwind CSS', 'Vue Router'],
-    githubUrl: 'https://github.com/IrfanAqila31/klien-company-profile',
-    previewUrl: 'https://company-profile-vertex-theta.vercel.app/',
+    // githubUrl: 'https://github.com/IrfanAqila31/klien-company-profile',
+    // previewUrl: 'https://company-profile-vertex-theta.vercel.app/',
   },
   // {
   //   title: 'Easy Caption',
@@ -86,4 +86,24 @@ export const projectList: ProjectItem[] = [
   //   previewUrl: 'https://nexa-web-nine.vercel.app/',
 
   // },
+  {
+    title: 'Movie App',
+    description: 'Aplikasi pencarian film dengan film terbaru',
+    fullDescription:
+      'Sebuah platform eksplorasi film interaktif yang dirancang dengan antarmuka modern dan intuitif. Dibangun menggunakan React dan dioptimalkan dengan React Query untuk caching data serta pencarian instan yang mulus. Pengguna dapat menelusuri katalog film terbaru, melihat detail, dan mencari film favorit tanpa hambatan performa.',
+    thumbnail: '/projects/movie-app/movie-app.webp',
+    images: [
+      '/projects/movie-app/movie-app.webp',
+      '/projects/movie-app/movie-app-2.webp',
+      '/projects/movie-app/movie-app-2.webp',
+      '/projects/movie-app/movie-app.webp',
+    ],
+    details: {
+      client: 'Personal Project',
+      year: '2026',
+    },
+    techStack: ['React', 'Tailwind CSS', 'React Query', 'React Router', 'TypeScript'],
+    // githubUrl: 'https://github.com/IrfanAqila31/web-sales',
+    // previewUrl: 'https://web-sales-eight.vercel.app/#kontak',
+  },
 ]
