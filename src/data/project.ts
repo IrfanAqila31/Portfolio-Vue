@@ -94,16 +94,16 @@ export const projectList: ProjectItem[] = [
     thumbnail: '/projects/movie-app/movie-app.webp',
     images: [
       '/projects/movie-app/movie-app.webp',
+      '/projects/movie-app/movie-app-3.webp',
+      '/projects/movie-app/movie-app-4.webp',
       '/projects/movie-app/movie-app-2.webp',
-      '/projects/movie-app/movie-app-2.webp',
-      '/projects/movie-app/movie-app.webp',
     ],
     details: {
       client: 'Personal Project',
       year: '2026',
     },
     techStack: ['React', 'Tailwind CSS', 'React Query', 'React Router', 'TypeScript'],
-    // githubUrl: 'https://github.com/IrfanAqila31/web-sales',
-    // previewUrl: 'https://web-sales-eight.vercel.app/#kontak',
+    githubUrl: 'https://github.com/IrfanAqila31/movie-app',
+    previewUrl: 'https://movie-app-ochre-eight.vercel.app/',
   },
 ]
